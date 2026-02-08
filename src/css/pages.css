@@ -1,0 +1,80 @@
+/* pages.css */
+
+.page-wrapper {
+  display: flex;
+  /* Use flexbox */
+  flex-direction: column;
+  /* Stack content vertically */
+  justify-content: center;
+  /* Center vertically */
+  align-items: center;
+  /* Center horizontally */
+  min-height: 20vh;
+  /* Full height minus navbar/footer */
+  padding: 40px 20px;
+  text-align: center;
+  background: #f9f9f9;
+  /* Light background */
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.page-wrapper h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #0070c9;
+  /* Apple blue accent */
+}
+
+.page-wrapper p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 600px;
+  color: #555;
+}
+
+.allVideosWrapper {
+  padding: 80px 0;
+  background: #f9f9f9;
+}
+
+.title-wraper {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.singleVideoWrapper {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff;
+  transition: transform 0.3s;
+}
+
+.singleVideoWrapper:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.videoThumbnail img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.videoTitle a {
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.videoTitle a:hover {
+  color: #007bff;
+}
+
+.videoDesc {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
